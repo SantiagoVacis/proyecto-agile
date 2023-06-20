@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+img {
+    max-width: 100%
+}
+
+header{
+    background-color: blue;
+    color: white;
+    padding: 1rem
+}
+
+.lista-barra-navegacion{
+    color:white;
+    background-color: blue;
+    size: 4rem;
+    font-size: 2rem;
+    display: flex;
+    padding: 2rem;
+    gap: 1rem; 
+    justify-content:space-between
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(7, 300 px);
+    grid-template-areas:
+        "art1 img1"
+        "art2 img2"
+        "art3 img3"
+} 
+
+.art1{
+    grid-area: art1
+}
+
+.img1{
+    grid-area: img1
+}
+
+.art2{
+    grid-area: art2
+}
+
+.img2{
+    grid-area: img2
+}
+
+
+.art3{
+    grid-area: art3
+}
+
+.img2{
+    grid-area: img3
+}
+
+
+
+
+
+
+/* 
+/* =========Header========== */
+
+
+h1 {
+    font-size:4rem
+}
+
+h3{
+
+    font-size: 2rem
+}
+
+
+
+.entrada-componente-acordeon{
+    color:white;
+    background-color: blue;
+    padding: 1rem;
+    font-size:2rem
+}
+
+.lista-redes-footer{
+    color:white;
+    font-size:2rem;
+    background-color:cadetblue;
+    padding:1rem;
+    display: flex;
+    gap: 4rem; 
+    justify-content: space-evenly
+}
+
+.entrada-componente-acordeon{
+    padding: 1rem;
+}
+
+p{
+    padding: 1rem
+}
+
+a {
+    padding: 2 rem
+}
+
+.inicio{
+    margin: 2 rem;
+    padding: 1rem;
+    border: solid 3px brown
+}
+
+.article__index{
+    display: flex;
+    flex-direction: column;
+    border:1rem;
+    border:solid red 1rem;
+    border-radius: 1rem;
+    padding: 2rem ;
+    margin:5rem;
+    
+}
+
+.article__index__p__img{
+    display:flex;
+    justify-content:flex-start
+
+}
+
+.article__p{
+    width:70%;
+    border:4rem solid red; 
+    align-items:center;
+    border:3rem;
+    border-color:red;
+    padding:4rem;
+    flex-grow:1;
+    background-color: aquamarine;
+    font-size:2rem;
+
+
+}
+
+.article__index img{
+
+    padding:3rem;
+    margin:3rem;
+} 
