@@ -30,14 +30,18 @@ dejo una sola imagen */
         padding: 1rem 
     }
 
+
     header h1{
         text-align: center;
     }
 
     header nav ul li{
         text-align:center;
+        color:white;
         padding:0.4rem 
     }
+
+    header nav ul li a{color:white}
 
     .grid-container h3 {
         text-align:center;
@@ -72,6 +76,8 @@ header{
     gap: 1rem; 
     justify-content:space-between
 }
+
+header nav ul li a{color:white}
 
 .grid-container{
     display: grid;
