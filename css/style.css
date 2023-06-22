@@ -18,6 +18,44 @@ img {
     max-width: 100%
 }
 
+/* ========Versión Mobile=============
+no es necesario poner el media query para la versión mobile, pero para que quede más prolijo
+dejo una sola imagen */
+
+@media(max-width: 767px) and (orientation: portrait) {
+
+    header{
+        background-color: blue;
+        color: white;
+        padding: 1rem 
+    }
+
+    header h1{
+        text-align: center;
+    }
+
+    header nav ul li{
+        text-align:center;
+        padding:0.4rem 
+    }
+
+    .grid-container h3 {
+        text-align:center;
+    }
+
+    .img1{
+        display:none
+    }
+
+    .img2{
+        display:none
+    }
+
+}
+
+@media(min-width: 768px) and (orientation: landscape) {
+
+
 header{
     background-color: blue;
     color: white;
@@ -66,12 +104,12 @@ header{
     grid-area: art3
 }
 
-.img2{
+.img3{
     grid-area: img3 
 }
 
 
-
+}
 
 
 
