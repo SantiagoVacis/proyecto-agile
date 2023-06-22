@@ -67,7 +67,7 @@ header{
 }
 
 .img2{
-    grid-area: img3
+    grid-area: img3 
 }
 
 
@@ -116,7 +116,8 @@ p{
 }
 
 a {
-    padding: 2 rem
+    padding: 2 rem;
+    color: black
 }
 
 .inicio{
