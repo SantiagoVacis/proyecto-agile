@@ -1,0 +1,28 @@
+$ff-oswald:"Oswald", sans-serif;
+$ff-ptsans:"PT Sans", sans-serif;
+$ff-opsans:"Open Sans", sans-serif;
+
+$c-blue: blue;
+$c-White: white;
+$c-black: black;
+$c-red: red;
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+img {
+    max-width: 100%
+}
